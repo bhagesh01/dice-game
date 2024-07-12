@@ -48,7 +48,7 @@ const Gameplay = () => {
   };
 
   return (
-    <main className="h-full w-full bg-red-500 overflow-y-scroll overflow-hidden no-scrollbar -mt-10"> 
+    <main className="h-full w-full bg-white overflow-y-scroll overflow-hidden no-scrollbar -mt-10"> 
       <div className="top-bar md:flex md:mt-10 justify-between">
         <Totalscore score={score} />
         <Numberselector
