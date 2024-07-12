@@ -1,7 +1,7 @@
 
 const Totalscore = ({score}) => {
   return (
-    <div className='totalscore-cont w-fit'>
+    <div className='totalscore-cont w-fit pl-28'>
       <h1 className='text-8xl'>{score}</h1>
       <p className='text-3xl font-medium'>Total Score</p>
     </div>

@@ -21,7 +21,7 @@ const Numberselector = ({setError , error, setSelectedNumber , selectedNumber}) 
         })
       }
     </div>
-    <div className='text-right'>
+    <div className='md:text-right'>
       <p className='text-4xl font-bold mt-4'>Select Number</p>
     </div>
     </div>

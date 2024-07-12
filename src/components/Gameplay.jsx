@@ -48,8 +48,8 @@ const Gameplay = () => {
   };
 
   return (
-    <main>
-      <div className="top-bar flex justify-between -mt-5">
+    <main className="h-full w-full bg-red-500 overflow-y-scroll overflow-hidden no-scrollbar -mt-10"> 
+      <div className="top-bar md:flex md:mt-10 justify-between">
         <Totalscore score={score} />
         <Numberselector
           error={error}
@@ -58,6 +58,8 @@ const Gameplay = () => {
           setSelectedNumber={setSelectedNumber}
         />
       </div>
+
+
       <Rolldice currentDice={currentDice} rollDice={rollDice} />
 
       <div className="buttons flex flex-col justify-center items-center ">

@@ -11,7 +11,7 @@ function App() {
     setIsGameStarted(true);
   }
   return (
-    <>
+    <div>
 
     {
       isGameStarted ? <Gameplay/> : <Startgame
@@ -19,7 +19,7 @@ function App() {
     }
     
       
-    </>
+    </div>
   )
 }
 

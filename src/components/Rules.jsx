@@ -4,7 +4,7 @@ import { MdCancel } from "react-icons/md";
 const Rules = ({hideRules}) => {
   return (
     <div className='flex items-center justify-center'>
-      <div className='bg-red-100 w-fit p-5 text-left mt-10 ml-20 '>
+      <div className='bg-red-100 w-fit p-5 text-left mt-10 w-[500px] '>
       <div className='flex justify-between'>
       <h1 className='mb-5 text-4xl font-bold'>How to play dice game.</h1>
       <MdCancel className='cursor-pointer text-2xl' onClick={hideRules}/>
